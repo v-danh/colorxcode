@@ -1,15 +1,24 @@
 [tool.poetry]
-name = "colorxcode-lib"
+name = "colorxcode"
 version = "0.0.1"
 description = "This is a color code conversion library."
 authors = ["vdanh <vdanhvt2000@gmail.com>"]
+license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.8"
 rich = "^13.9.2"
-colorxcode = {path = "dist/colorxcode-0.0.1-py3-none-any.whl"}
+colorxcode = {path = "dist/colorxcode-0.0.1.post0-py3-none-any.whl"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.3.3"
+setuptools = "^75.1.0"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+homepage = "https://github.com/v-danh/colorxcode"
+repository = "https://github.com/v-danh/colorxcode"
