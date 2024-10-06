@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "colorxcode-lib"
+version = "0.0.1"
+description = "This is a color code conversion library."
+authors = ["vdanh <vdanhvt2000@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+rich = "^13.9.2"
+colorxcode = {path = "dist/colorxcode-0.0.1-py3-none-any.whl"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
