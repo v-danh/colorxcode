@@ -15,3 +15,6 @@ venv/
 # Bỏ qua thư mục `build` và `dist`
 build/
 dist/
+
+# Bỏ qua tệp `poetry.lock`
+poetry.lock
