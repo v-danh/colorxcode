@@ -1,0 +1,14 @@
+# Bỏ qua các tệp có đuôi `.log`
+*.log
+
+# Bỏ qua thư mục bộ nhớ đệm của trình thông dịch `cpython`
+
+# Bỏ qua thư mục `node_modules` và tất cả nội dung bên trong
+node_modules/
+
+# Bỏ qua tất cả các tệp `.env`
+*.env
+
+# Bỏ qua thư mục `build` và `dist`
+build/
+dist/

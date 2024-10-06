@@ -8,7 +8,7 @@ setup(
     name = "colorxcode",
     version = colorxcode.__version__,
     description = "This is a color code conversion library.",
-    packages = find_packages(exclude=([".env*", "build*", "dist*"])),
+    packages = find_packages(),
     include_package_data = True,
     long_description = long_description,
     long_description_content_type = "text/markdown",
