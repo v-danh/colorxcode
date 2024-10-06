@@ -1,13 +1,16 @@
 # Bỏ qua các tệp có đuôi `.log`
 *.log
 
-# Bỏ qua thư mục bộ nhớ đệm của trình thông dịch `cpython`
+# Byte-compiled / optimized / DLL
+__pycache__/
+*.py[cod]
+*.so
 
-# Bỏ qua thư mục `node_modules` và tất cả nội dung bên trong
-node_modules/
-
-# Bỏ qua tất cả các tệp `.env`
+# Bỏ qua các biến môi trường `.env`
 *.env
+
+# Bỏ qua các môi trường ảo `venv`
+venv/
 
 # Bỏ qua thư mục `build` và `dist`
 build/
