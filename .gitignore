@@ -2,7 +2,7 @@
 *.log
 
 # Byte-compiled / optimized / DLL
-__pycache__/
+__pycache__
 *.py[cod]
 *.so
 
@@ -10,11 +10,8 @@ __pycache__/
 *.env
 
 # Bỏ qua các môi trường ảo `venv`
-venv/
+venv
 
 # Bỏ qua thư mục `build` và `dist`
-build/
-dist/
-
-# Bỏ qua tệp `poetry.lock`
-poetry.lock
+build
+dist

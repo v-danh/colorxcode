@@ -22,7 +22,7 @@ class Color:
         Tải dữ liệu màu từ tệp JSON vào biến `color_data`.
         
         Args:
-            json_file (Path) : đường dẫn đến tệp JSON.
+            json_file (Path) : đường dẫn đến tệp `JSON`.
 
         Returns:
             bool : trả về `True` nếu thành công, ngược lại là `False`.
@@ -84,7 +84,6 @@ class Color:
         return Color.get_color_format(color_name, "CMYK")
 
 if __name__ == '__main__':
-    # pass
     file_path = Path("colors.json")
     # tải dữ liệu từ tệp tin
     data = Color.load_data(file_path)
