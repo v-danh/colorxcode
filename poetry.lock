@@ -16,9 +16,9 @@ name = "colorxcode"
 version = "0.0.1.post0"
 description = "This is a color code conversion library."
 optional = false
-python-versions = ">=3.8,<4.0"
+python-versions = ">=3.8"
 files = [
-    {file = "colorxcode-0.0.1.post0-py3-none-any.whl", hash = "sha256:aed82696ab2f7bfcb3826ef5be47f7189cf51cf5c420cef133505cc0d8d42b4e"},
+    {file = "colorxcode-0.0.1.post0-py3-none-any.whl", hash = "sha256:e6253b62a0f42e8ffcc71cf89f4f6ffd1cf0f3b7c29fb9243e52f6a5eb77d315"},
 ]
 
 [package.dependencies]
@@ -213,5 +213,5 @@ files = [
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.8"
-content-hash = "3053302246b0f2bff5c21ccaed4d83b9147fc68ae18b9a608d43c7881fa13e0d"
+python-versions = ">=3.8"
+content-hash = "c33587057fd663092b0ade32081f391e3e04f196181e528640811dd05073de02"

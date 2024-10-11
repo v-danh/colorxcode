@@ -5,6 +5,7 @@
 __pycache__
 *.py[cod]
 *.so
+.idea
 
 # Bỏ qua các biến môi trường `.env`
 *.env

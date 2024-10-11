@@ -1,6 +1,5 @@
-from colorxcode.convert import ColorLib
 from rich.console import Console
-import logging
+from colorxcode.convert import ColorLib
 
 console = Console()
 result = ColorLib.Color()

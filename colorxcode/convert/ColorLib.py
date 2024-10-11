@@ -29,7 +29,7 @@ class Color:
         """
         try:
             if not json_file.exists():
-                console.log(f"[bold red]Tệp tin {json_file} không tồn tại.[/bold red]")
+                console.log(f"[bold red]Tệp tin '{json_file}' không tồn tại.[/bold red]")
                 return False
             
             with open(json_file, "r", encoding="utf-8") as file:

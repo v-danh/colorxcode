@@ -1,6 +1,5 @@
 import json
 from rich.console import Console
-from pathlib import Path
 import colorxcode
 print(colorxcode.__version__)
 

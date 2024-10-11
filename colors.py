@@ -1,8 +1,8 @@
 # import json
 # from rich.console import Console
-
+#
 # console = Console()
-
+#
 # # tạo một từ điển chứa các mã màu
 # colors = {
 #     "red": {
@@ -28,7 +28,7 @@
 #     "yellow": {
 #         "RGB": [255, 255, 0],
 #         "HEX": "#FFFF00",
-#         "CMYK": [0, 0, 100, 0]   
+#         "CMYK": [0, 0, 100, 0]
 #     },
 #     "orange": {
 #         "RGB": [255, 165, 0],
@@ -66,9 +66,9 @@
 #         "CMYK": [0, 75, 75, 35]
 #     }
 # }
-
+#
 # # lưu trữ từ điển dưới dạng JSON vào tệp tin
 # with open("colors.json", "w") as file:
 #     json.dump(colors, file, indent=4)
-
+#
 # console.log("[bold green]Lưu trữ mã màu thành công vào tệp tin colors.json[/bold green]")

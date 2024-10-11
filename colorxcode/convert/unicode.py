@@ -1,6 +1,7 @@
+from typing import Optional
 from rich.console import Console
 from rich.text import Text
-from typing import Optional
+
 from colorxcode.convert import ColorLib
 
 console = Console()
@@ -20,7 +21,7 @@ def colored_unicode(color_name: str) -> Optional[str]:
         # Tạo một kí tự có màu tương ứng
         colored_symbol = Text("■", style=f"bold {hex_color}")  # dùng kí hiệu hình vuông "■"
         
-        # In ký tự màu trên console
+        # In ký tự màu trên dòng lệnh
         console.log(colored_symbol)
         
         return f"Unicode color symbol: {hex_color}"
@@ -30,4 +31,3 @@ def colored_unicode(color_name: str) -> Optional[str]:
 colored_unicode("red")
 colored_unicode("green")
 colored_unicode("blue")
-colored_unicode("")
