@@ -1,0 +1,19 @@
+# Bỏ qua các tệp có đuôi `.log`
+*.log
+
+# Byte-compiled / optimized / DLL
+__pycache__
+*.py[cod]
+*.so
+.idea
+.vscode
+
+# Bỏ qua các biến môi trường `.env`
+*.env
+
+# Bỏ qua các môi trường ảo `venv`
+venv
+
+# Bỏ qua thư mục `build` và `dist`
+build
+dist
