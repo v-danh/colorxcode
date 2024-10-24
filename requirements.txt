@@ -1,3 +1,0 @@
-colorxcode~=0.0.1.post0
-rich~=13.9.2
-setuptools~=75.1.0
